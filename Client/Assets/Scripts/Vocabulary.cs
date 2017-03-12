@@ -135,7 +135,87 @@ public class Vocabulary : MonoBehaviour {
         Vocabularies.Add(new Word("epidemic", "herkesi ilgilendiren"));
         Vocabularies.Add(new Word("transmit", "iletmek"));
         Vocabularies.Add(new Word("lethal", "ölümcül"));
+        Vocabularies.Add(new Word("outbreak", "bulaştırmak"));
+        Vocabularies.Add(new Word("horrendous", "ürkütücü"));
+        Vocabularies.Add(new Word("emidemiologist", "epidemiyoloji uzmanı"));
+        Vocabularies.Add(new Word("landmark", "herkesin bildiği popüler bir şey"));
+        Vocabularies.Add(new Word("plummet", "hızlıca düşmek"));
+        Vocabularies.Add(new Word("arduous", "olması çok zor"));
+        Vocabularies.Add(new Word("feasible", "makul"));
+        Vocabularies.Add(new Word("strain", "ırk"));
+        Vocabularies.Add(new Word("replicate", "tekrarlama"));
+        Vocabularies.Add(new Word("invade", "akın etmek"));
+        Vocabularies.Add(new Word("rainforcement", "takviye"));
+        Vocabularies.Add(new Word("ambush", "pusu"));
+        Vocabularies.Add(new Word("pharmaceutical", "ilaçlarla ilgili"));
+        Vocabularies.Add(new Word("vaccine", "aşı"));
+        Vocabularies.Add(new Word("quarantine", "karantina"));
+        Vocabularies.Add(new Word("primate", "ilkel"));
+        Vocabularies.Add(new Word("host", "ev sahipliği yapmak"));
+        Vocabularies.Add(new Word("carcass", "leş"));
+        Vocabularies.Add(new Word("impact", "darbe"));
+        Vocabularies.Add(new Word("onslaught", "saldırı"));
+        Vocabularies.Add(new Word("dawn", "gün ışıması"));
+        Vocabularies.Add(new Word("offspring", "yavru, çocuk"));
+        Vocabularies.Add(new Word("autopsy", "otopsi"));
+        Vocabularies.Add(new Word("rodent", "kemirgen"));
+        Vocabularies.Add(new Word("urbanzation", "kente göç"));
+        Vocabularies.Add(new Word("mutation", "mutasyon"));
+        Vocabularies.Add(new Word("wake up call", "kafaya dank etmek"));
+        Vocabularies.Add(new Word("meddle", "karışmak"));
+        Vocabularies.Add(new Word("mercy", "merhamet"));
+        Vocabularies.Add(new Word("meticulousness", "titiz"));
+        Vocabularies.Add(new Word("grab bag", "karman çorman"));
+        Vocabularies.Add(new Word("devotees", "tasavvuf"));
+        Vocabularies.Add(new Word("theologist", "ilahiyatçı"));
+        Vocabularies.Add(new Word("cogy", "sinsi"));
+        Vocabularies.Add(new Word("aminous", "uğursuz"));
+        Vocabularies.Add(new Word("playball", "sürü psikolojisi"));
+        Vocabularies.Add(new Word("bening", "zevk veren - zararsız şey"));
+        Vocabularies.Add(new Word("jeopardy", "tehlike"));
+        Vocabularies.Add(new Word("misrepresantation", "yanlış beyan"));
+        Vocabularies.Add(new Word("precautions", "önlemler"));
+        Vocabularies.Add(new Word("revolution", "vahiy"));
+        Vocabularies.Add(new Word("substantiote", "kanıtlamak"));
+        Vocabularies.Add(new Word("ginormous", "büyük, muazzam, çok büyük"));
+        Vocabularies.Add(new Word("resolve", "çözümlemek"));
+        Vocabularies.Add(new Word("empty handed", "eli boş kalmak"));
+        Vocabularies.Add(new Word("spectacle", "değişik gösterim"));
+        Vocabularies.Add(new Word("sugarcane", "şeker kamışı"));
+        Vocabularies.Add(new Word("sugarmill", "şeker değirmeni"));
+        Vocabularies.Add(new Word("efficient", "verimli, etkili"));
+        Vocabularies.Add(new Word("extract", "ayrıştırmak, seçip çıkartmak"));
+        Vocabularies.Add(new Word("fermantation", "fermantasyon"));
+        Vocabularies.Add(new Word("yeast", "maya"));
+        Vocabularies.Add(new Word("distill", "damıtmak"));
+        Vocabularies.Add(new Word("renewable", "yenilenebilir"));
+        Vocabularies.Add(new Word("boils down to", "indirgemek"));
+        Vocabularies.Add(new Word("fore front", "ön taraf"));
+        Vocabularies.Add(new Word("derive", "türemek"));
+        Vocabularies.Add(new Word("composition", "kompozisyon"));
+        Vocabularies.Add(new Word("decade", "on yıl"));
+        Vocabularies.Add(new Word("crop", "mahsul(noun), hasat(verb)"));
+        Vocabularies.Add(new Word("synthetic", "sentetik"));
+        Vocabularies.Add(new Word("blueprint", "şablon"));
+        Vocabularies.Add(new Word("catalyst", "katalizör"));
+        Vocabularies.Add(new Word("contain", "içermek"));
+        Vocabularies.Add(new Word("infastructure", "alt yapı"));
+        Vocabularies.Add(new Word("congested", "tıkanmış, tıkalı"));
+        Vocabularies.Add(new Word("inefficiency", "işe yaramaz"));
+        Vocabularies.Add(new Word("enormous", "büyük, muazzam"));
+        Vocabularies.Add(new Word("commute", "ev iş arasındaki yol"));
+        Vocabularies.Add(new Word("utilize", "değerlendirmek"));
+        Vocabularies.Add(new Word("eliminate", "elemek"));
+        Vocabularies.Add(new Word("merge", "birleştirmek"));
+        Vocabularies.Add(new Word("density", "yoğunluk"));
+        Vocabularies.Add(new Word("optimize", "en uygun hale getirmek"));
+        Vocabularies.Add(new Word("tweak", "çimcik, keskin çekmek, uyarlamak"));
+        Vocabularies.Add(new Word("take into", "consideration, dikkate almak"));
+        Vocabularies.Add(new Word("autonomous", "özerk"));
 
         /**GOES ON WORDS**/
     }
 }
+
+
+
