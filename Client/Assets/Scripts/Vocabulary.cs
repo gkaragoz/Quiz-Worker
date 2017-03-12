@@ -33,6 +33,9 @@ public class Vocabulary : MonoBehaviour {
     public Text txtQuestion;
     public List<Button> Buttons = new List<Button>();
 
+    public Color ColorCorrect;
+    public Color ColorWrong;
+
     private void Start()
     {
         questionCounter = 0;
@@ -40,8 +43,16 @@ public class Vocabulary : MonoBehaviour {
         AssignNewQuestion();
     }
 
+    private void FillButtonColorsToWhite()
+    {
+        foreach (var item in Buttons)
+            item.GetComponent<Image>().color = Color.white;
+    }
+
     private void AssignNewQuestion()
     {
+        FillButtonColorsToWhite();
+
         Word word = Vocabularies[questionCounter];
         txtQuestion.text = word.GetWord();
         int number = Random.Range(0, Buttons.Count);
@@ -54,8 +65,6 @@ public class Vocabulary : MonoBehaviour {
                 Buttons[ii].transform.FindChild("Text").GetComponent<Text>().text = GetRandomTranslate(word);
         }
     }
-
-
 
     private string GetRandomTranslate(Word word)
     {
@@ -83,6 +92,33 @@ public class Vocabulary : MonoBehaviour {
             questionCounter++;
 
         AssignNewQuestion();
+    }
+
+    public void onClickButton(string answerNumber)
+    {
+        int buttonNumber = -1;
+
+        if (answerNumber == "1")
+            buttonNumber = int.Parse(answerNumber) - 1;
+        else if (answerNumber == "2")
+            buttonNumber = int.Parse(answerNumber) - 1;
+        else if (answerNumber == "3")
+            buttonNumber = int.Parse(answerNumber) - 1;
+        else if (answerNumber == "4")
+            buttonNumber = int.Parse(answerNumber) - 1;
+        else if (answerNumber == "5")
+            buttonNumber = int.Parse(answerNumber) - 1;
+
+        if(Buttons[buttonNumber].transform.FindChild("Text").GetComponent<Text>().text == GetCorrectAnswer(Vocabularies[questionCounter]))
+        {
+            Debug.Log("Question correct");
+            Buttons[buttonNumber].GetComponent<Image>().color = ColorCorrect;
+        }
+        else
+        {
+            Debug.Log("Wrong");
+            Buttons[buttonNumber].GetComponent<Image>().color = ColorWrong;
+        }
     }
 
     private void FillWords()
